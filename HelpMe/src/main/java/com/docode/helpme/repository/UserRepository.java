@@ -1,10 +1,10 @@
 package com.docode.helpme.repository;
 
-import org.springframework.data.jpa.repository.support.JpaRepositoryFactory;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.docode.helpme.model.User;
 
-public class UserRepository extends JpaRepository<User, Long>{
+public interface UserRepository extends JpaRepository<User, Long>{
 	
 
 }
