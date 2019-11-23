@@ -41,5 +41,5 @@ Ext.create('Ext.form.Panel', {
 				Ext.Msg.alert('Invalid Data', 'Please correct form errors.')
 			}
 		}
-	} ]
+	} ],
 });
